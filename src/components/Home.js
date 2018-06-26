@@ -9,9 +9,9 @@ import { Link } from 'react-router-dom'
 const Home = () => (
 
   <div className="App">
-            {/*<Link to={`/form`}>Form</Link>*/}
+            <Link to={`/form`}>Form</Link>
             <div className="header">
-              <ul>
+              <ul className="homeList">
                 <li>
                   <div className="name">
                     <p> Dainger Adams </p>
@@ -27,7 +27,7 @@ const Home = () => (
               </ul>
             </div>
 
-          <ul>
+          <ul className="homeList">
             <li>
               <div className="nav">
                 <div className="directions">
